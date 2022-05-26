@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mymodal.css">
+    <title>book</title>
+
+</head>
+
+<body>
+    <kbd>
+        <h1 class="bg-primary text-danger">"Books are a uniquely portable magic"</h1>
+    </kbd>
+
+    <div>
+        <img src="./cin.jpg"  class="rounded float-start ms-5 mt-1 " height="500" alt="..." class=""
+            data-bs-toggle="modal" data-bs-target="#exampleModal">
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header bg-secondary">
+                       <h5 class="modal-title ms-5 " id="exampleModalLabel">CINDRELLA</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="cinn" class="w-100" height="250px" src="./cin.jpg"> <h6 id="par" class="d-flex" > "Cinderella"-"The Little Glass Slipper", is a folk tale with
+                        thousands of variants throughout the world. The protagonist is a young woman living in
+                        forsaken circumstances that are suddenly changed to remarkable fortune, with her ascension to
+                        the throne via marriage. The story of Rhodopis, recounted by the Greek geographer Strabo
+                        sometime between around 7 BC and AD 23, about a Greek slave girl who marries the king of Egypt,
+                        is usually considered to be the earliest known variant of the Cinderella story.</h6>
+                    </div>
+                    <div class="modal-footer bg-danger">
+                        <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-outline-secondary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img id="img2" src="./harrypotter.jpg" class="ms-5 mt-1 " height="500px" alt=""
+ class="" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title ms-5 bg-danger" id="exampleModalLabel">harrypotter</h5>
+
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body w-100" he>
+            <img id="img2" src="./harrypotter.jpg">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+        <img src="./titanic.jpg" class="rounded float-end me-5 mt-1" height="500" alt="...">
+    </div>
+
+
+</body>
+
+</html>

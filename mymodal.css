@@ -1,0 +1,22 @@
+body{
+ 
+}
+h1{
+    opacity: 0%;
+    text-align: center;
+    margin-top: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.bg-primary{
+    opacity: 50%;
+}
+#img2{
+    margin-left: 100px;
+}
+h5{
+    text-align: center;
+    margin-left: 800px;
+}
+#par,#cinn{
+    display: grid;
+}
